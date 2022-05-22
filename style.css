@@ -1,0 +1,44 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgba(250, 250, 250, 0.925);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+
+    opacity: 0.9;
+}
+
+.logo {
+    
+    font-size: 20px;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,
+    -apple-system, Arial, Helvetica, sans-serif;
+    background-color: rgb(9, 9, 9);
+    height: 17vh;
+}
+
+main {
+    height: 100%;
+}
+
+img {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
